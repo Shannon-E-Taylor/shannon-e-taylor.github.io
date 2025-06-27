@@ -2,32 +2,7 @@ var lang = localStorage.getItem("lang");
 var pathname = window.location.pathname.replace(".html", "");
 
 $(document).ready(function () {
-  // ---------- Language Handler
-  if (!lang) {
-    localStorage.setItem("lang", "en");
-  }
-
-  if (lang === "fa") {
-    document.getElementById("content_wrapper").classList.add("rtl_wrapper");
-    if (
-      document.getElementById("languageIcon") &&
-      document.getElementById("languageText")
-    ) {
-      document.getElementById("languageIcon").src =
-        "../assets/images/icons/en.png";
-      document.getElementById("languageText").innerText = "EN";
-    }
-  } else {
-    document.getElementById("content_wrapper").classList.add("ltr_wrapper");
-    if (
-      document.getElementById("languageIcon") &&
-      document.getElementById("languageText")
-    ) {
-      document.getElementById("languageIcon").src =
-        "../assets/images/icons/ir.png";
-      document.getElementById("languageText").innerText = "FA";
-    }
-  }
+  document.getElementById("content_wrapper").classList.add("ltr_wrapper");
 
   // Home page data
   const home_data = {
