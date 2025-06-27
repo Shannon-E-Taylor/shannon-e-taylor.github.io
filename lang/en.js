@@ -1,6 +1,6 @@
 // ---------- Navbar titles
 const enNavbarData = {
-  title: " Your name ",
+  title: " Shannon Taylor ",
   Home: "Home",
   publications: "publications",
   Research: "Research",
@@ -10,22 +10,12 @@ const enNavbarData = {
 
 // ---------- Home page data
 const enHomePageData = {
-  name: " Your name ",
+  name: " Shannon Taylor ",
   jobTitle: " Job title ",
   home_title: "About me",
   home_content: `
   <div>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
-      ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-    <h2 class='title'> Main works </h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh  </p>
-    <ul>
-      <li> Heuristics</li>
-      <li> Policy planning </li>
-      <li> Flexiblity to details </li>
-    </ul>
+  <p> I am passionate about... </p> 
   </div>
   `,
 };
@@ -36,21 +26,21 @@ const enPublicationsPageData = {
 
   type_one_items: [
     {
-      title: `Dancing to the beat of climate change: Studying visual frames on TikTok through the left-right divide among U.S. politicians (with ).`,
-      abstract: `Politicians across the political spectrum have taken to TikTok in an attempt to reach young voters by producing original videos. This novel trend has turned TikTok into the new polarizing ring in the political communication battle, deepening the partisan breach around issues such as climate change. However`,
-      date: "",
-      link: "http://link.com",
+      title: `Approximated gene expression trajectories for gene regulatory network inference on cell tracks`,
+      abstract: `The study of pattern formation has benefited from our ability to reverse-engineer gene regulatory network (GRN) structure from spatiotemporal quantitative gene expression data. Traditional approaches have focused on systems where the timescales of pattern formation and morphogenesis can be separated. Unfortunately, this is not the case in most animal patterning systems, where pattern formation and morphogenesis are co-occurring and tightly linked. To elucidate patterning mechanisms in such systems we need to adapt our GRN inference methodologies to include cell movements. In this work, we fill this gap by integrating quantitative data from live and fixed embryos to approximate gene expression trajectories (AGETs) in single cells and use these to reverse-engineer GRNs. This framework generates candidate GRNs that recapitulate pattern at the tissue level, gene expression dynamics at the single cell level, recover known genetic interactions and recapitulate experimental perturbations while incorporating cell movements explicitly for the first time.`,
+      date: "2024",
+      link: "https://www.cell.com/iscience/fulltext/S2589-0042(24)02065-0",
       github: "",
       download: "",
       writers: ["Claudio Cioffi-Revilla", "masoud Claudio "],
     },
     {
-      title: `“Now you are speaking my language” Language-specific transparency and legislative negotiations in the Council of Ministers of the European Union. (with ).`,
-      abstract: `Politicians across the political spectrum have taken to TikTok in an attempt to reach young voters by producing original videos. This novel trend has turned TikTok into the new polarizing ring in the political communication battle, deepening the partisan breach around issues such as climate change. However`,
-      date: "1996",
-      link: "",
+      title: `The Nasonia pair-rule gene regulatory network retains its function over 300 million years of evolution`,
+      abstract: `Insect segmentation is a well-studied and tractable system with which to investigate the genetic regulation of development. Though insects segment their germband using a variety of methods, modelling work implies that a single gene regulatory network can underpin the two main types of insect segmentation. This means limited genetic changes are required to explain significant differences in segmentation mode between different insects. This idea needs to be tested in a wider variety of species, and the nature of the gene regulatory network (GRN) underlying this model has not been tested. Some insects, e.g. Nasonia vitripennis and Apis mellifera segment progressively, a pattern not examined in previous studies of this segmentation model, producing stripes at different times progressively through the embryo, but not from a segment addition zone. Here, we aim to understand the GRNs patterning Nasonia using a simulation-based approach. We found that an existing model of Drosophila segmentation ( Clark, 2017) can be used to recapitulate the progressive segmentation of Nasonia, if provided with altered inputs in the form of expression of the timer genes Nv-caudal and Nv-odd paired. We predict limited topological changes to the pair-rule network and show, by RNAi knockdown, that Nv-odd paired is required for morphological segmentation. Together this implies that very limited changes to the Drosophila network are required to simulate Nasonia segmentation, despite significant differences in segmentation modes, implying that Nasonia use a very similar version of an ancestral GRN used by Drosophila, which must therefore have been conserved for at least 300 million years.`,
+      date: "2022",
+      link: "https://journals.biologists.com/dev/article/149/5/dev199632/274657/The-Nasonia-pair-rule-gene-regulatory-network",
       github: "http://github.com",
-      writers: ["Claudio Cioffi-Revilla", ""],
+      writers: ["Shannon E. Taylor", "Peter K. Dearden"],
     },
   ],
 
