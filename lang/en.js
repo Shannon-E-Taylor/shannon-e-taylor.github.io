@@ -22,7 +22,7 @@ const enHomePageData = {
 
 // ---------- Publications page data
 const enPublicationsPageData = {
-  type_one_title: "Journal Papers",
+  type_one_title: "Selected Journal Articles",
 
   type_one_items: [
     {
@@ -44,7 +44,7 @@ const enPublicationsPageData = {
     },
   ],
 
-  type_two_title: "Under Review",
+  type_two_title: "Other Journal Articles",
   type_two_items: [
     {
       title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
@@ -64,7 +64,7 @@ const enPublicationsPageData = {
     },
   ],
 
-  type_three_title: "Book Chapters",
+  type_three_title: "Under Review",
   type_three_items: [
     {
       title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
@@ -84,7 +84,7 @@ const enPublicationsPageData = {
     },
   ],
 
-  type_four_title: "",
+  type_four_title: "Forthcoming",
   type_four_items: [
     {
       title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
