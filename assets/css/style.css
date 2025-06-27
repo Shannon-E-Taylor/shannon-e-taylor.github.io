@@ -320,70 +320,43 @@
   border-radius: 50%;
 }
 
+/* Make job_header a vertical stack */
 #jobs_data .job_header {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  flex-direction: column;
+  gap: 0.2rem;
   margin-bottom: 1rem;
 }
 
-#jobs_data .job_header > div:first-child {
-  flex-grow: 1;
-  min-width: 200px;
-}
-
-#jobs_data .job_header > div:last-child {
-  min-width: 150px;
-  text-align: right;
-  display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
-  flex-wrap: nowrap;
-}
-
-/* Stack title and company vertically */
-#jobs_data .job_header > div:first-child h1,
-#jobs_data .job_header > div:first-child h2 {
+/* Style each piece inside job_header as block */
+#jobs_data .job_header h1,
+#jobs_data .job_header span,
+#jobs_data .job_header h2 {
   display: block;
   margin: 0;
   line-height: 1.3;
 }
 
+/* Job title */
 #jobs_data .job_header h1 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
+/* Job year (date) */
+#jobs_data .job_header span {
+  font-size: 1rem;
+  color: #555;
+  font-style: normal;
+  margin-top: 0.15rem;
+}
+
+/* Company */
 #jobs_data .job_header h2 {
   font-size: 1rem;
   font-style: italic;
   color: #666;
-}
-
-/* Date and location styling */
-#jobs_data .job_header span {
-  font-size: 0.9rem;
-  color: #555;
-  white-space: nowrap;
-}
-
-#jobs_data .job_header .job_location {
-  font-style: italic;
-  position: relative;
-  margin-left: 0;
-  padding-left: 0.8rem;
-}
-
-/* Use bullet separator instead of vertical line */
-#jobs_data .job_header .job_location::before {
-  content: "•";
-  color: #ccc;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 1rem;
+  margin-top: 0.15rem;
 }
 
 /* Paragraphs and list styling */
@@ -401,7 +374,6 @@
   margin-bottom: 0.4rem;
   line-height: 1.4;
 }
-
 
 
 /* Contact page styles */

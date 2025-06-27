@@ -204,11 +204,11 @@ $(document).ready(function () {
       .map(
         (job) =>
           `<div class='job_item'>
-            <div class='job_header'>
-              <div>
-                <h1>${job.title}${lang === "en" ? "," : "،"}</h1>
-                <h2> ${job.company}</h2>
-              </div>
+<div class='job_header'>
+  <h1>${job.title}</h1>
+  <span>${job.startData} - ${job.endDate ? job.endDate : lang === "en" ? "Now" : " تاکنون "}</span>
+  <h2>${job.company}</h2>
+</div>
               <div>
                 <span>${job.startData} - ${
             job.endDate ? job.endDate : lang === "en" ? "Now" : " تاکنون "
