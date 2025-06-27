@@ -192,8 +192,7 @@ $(document).ready(function () {
 
   // Jobs page data
   function jobsData() {
-    document.getElementById("page_title").innerText =  "Education";
-
+    document.getElementById("page_title").innerText =  "Jobs";
     document.getElementById("jobs_title").innerHTML = enJobsPageData.title;
     document.getElementById("jobs_data").innerHTML = enJobsPageData.items; 
       .map(
@@ -201,7 +200,7 @@ $(document).ready(function () {
           `<div class='job_item'>
             <div class='job_header'>
               <h1>${job.title}</h1>
-              <span>${job.startData} - ${job.endDate ? job.endDate : "Now"}</span>
+              <span>${job.startData} - ${job.endDate ? job.endDate : "Now"} </span>
               <h2>${job.company}</h2>
             </div>
               <div>
