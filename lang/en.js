@@ -88,7 +88,7 @@ const enPublicationsPageData = {
       abstract: `A major question in evolutionary developmental biology is how organismal diversity is generated. Lake Malawi cichlid fishes are a fascinating system with which to study this problem, varying in phenotype but having extremely limited genetic diversity. We have focused on the evolution of somite number in these fishes, as segmentation/somitogenesis process is very well understood in other species.  We studied the cichlids fish, Astatotilapia calliptera and Ramphochromis chilingali, which form 30 and 38 somites respectively. The rate of segment production is the same in these two species, so we focused on differences in axial morphogenesis during somitogenesis. We found differences in embryonic morphology at the onset of somitogenesis but similarities in the dynamics of axial elongation between these species. At the onset of somitogenesis, R. chillingali embryos are longer than their A. calliptera counterparts, and the pre-somitic mesoderm (which will give rise to the somites) is larger and has more cells in R.chillingali than in A. calliptera.  However, the Tbox genes, which are required for axial elongation in other vertebrates, are expressed identically between the two species. Altogether, our work suggests that morphogenetic differences at the onset of somitogenesis might important in evolving vertebral count, while the process of somitogenesis can remain unchanged. 
 `,
       date: "",
-      writers: ["Shannon E. Taylor", "Berta Verd"],
+      writers: ["<b>Shannon E. Taylor</b>", "Berta Verd"],
     },
   ],
 };
@@ -98,12 +98,7 @@ const enResearchPageData = {
   title: "Research",
   content: `
     <div class='research_content'>
-        <p> My research goal is to combine the three major sub-fields of the Computational Social Science, including Social Media Data Analysis, Network Analysis, and Agent-based Modeling, to study various social science problems. Below you can find a summary of my past and current projects.</p>
-        <br />
-        <h4 style="font-size: 1.1rem "> Identifying and Characterizing US Domestic Ideological Extremists </h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
-        <img src='../files/images/research.png' />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas purus viverra  accumsan in nisl nisi. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. In egestas erat <br /> imperdiet sed euismod nisi porta lorem mollis. Morbi tristique senectus et netus. Mattis pellentesque id nibh tortor id aliquet <br /> lectus proin. Sapien faucibus et molestie ac feugiat sed lectus vestibulum. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Dictum varius duis at consectetur lorem. Nisi vitae suscipit tellus mauris a diam maecenas sed enim. Velit ut tortor pretium viverra suspendisse potenti nullam. Et molestie ac feugiat sed lectus. Non nisi est sit amet facilisis magna. Dignissim diam quis enim lobortis scelerisque fermentum. Odio ut enim blandit volutpat maecenas volutpat. Ornare lectus sit amet est placerat in egestas erat. Nisi vitae suscipit tellus mauris a diam maecenas sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet.</p>
+        <p> My research goal ... </p>
     </div>
   `,
 };
