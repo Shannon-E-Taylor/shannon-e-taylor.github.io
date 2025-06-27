@@ -192,39 +192,34 @@ $(document).ready(function () {
 
   // Jobs page data
   function jobsData() {
-    document.getElementById("page_title").innerText =  "Jobs";
-    document.getElementById("jobs_title").innerHTML = enJobsPageData.title;
-    document.getElementById("jobs_data").innerHTML = enJobsPageData.items; 
-      .map(
-        (job) =>
-          `<div class='job_item'>
-            <div class='job_header'>
-              <h1>${job.title}</h1>
-              <span>${job.startData} - ${job.endDate ? job.endDate : "Now"} </span>
-              <h2>${job.company}</h2>
-            </div>
-              <div>
-                <span class='job_location'>${job.location}</span>
-              </div>
-            </div>
-            <p>${job.abstract}</p>
-            <p>
-            ${
-              job.achievements.length > 0
-                ? `<div class="job_achievements">
-                  <ul>
-                    ${job.achievements
-                      .map((achievement) => `<li>${achievement}</li>`)
-                      .join("")}
-                  </ul>
-                </div>`
-                : ""
-            }
-            </p>
-        </div>`
-      )
-      .join("");
-  }
+  document.getElementById("page_title").innerText = "Education";
+  document.getElementById("jobs_title").innerHTML = enJobsPageData.title;
+
+  document.getElementById("jobs_data").innerHTML = enJobsPageData.items
+    .map((job) => `
+      <div class='job_item'>
+        <div class='job_header'>
+          <h1>${job.title}</h1>
+          <span>${job.startData} - ${job.endDate ? job.endDate : "Now"}</span>
+          <h2>${job.company}</h2>
+        </div>
+        <div>
+          <span class='job_location'>${job.location}</span>
+        </div>
+        <p>${job.abstract}</p>
+        ${
+          job.achievements.length > 0
+            ? `<div class="job_achievements">
+                <ul>
+                  ${job.achievements.map((achievement) => `<li>${achievement}</li>`).join("")}
+                </ul>
+              </div>`
+            : ""
+        }
+      </div>
+    `).join("");
+}
+
 
   if (pathname === "/jobs") {
     jobsData();
