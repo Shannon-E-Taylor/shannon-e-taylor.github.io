@@ -20,7 +20,7 @@ const enHomePageData = {
   `,
 };
 
-const me="Shannon E. Taylor"; 
+
 
 // ---------- Publications page data
 const enPublicationsPageData = {
@@ -34,7 +34,7 @@ const enPublicationsPageData = {
       link: "https://www.cell.com/iscience/fulltext/S2589-0042(24)02065-0",
       github: "",
       download: "https://www.cell.com/action/showPdf?pii=S2589-0042%2824%2902065-0",
-      writers: ["Kay Speiss", me],
+      writers: ["Kay Speiss", "Shannon E. Taylor"],
     },
     {
       title: `The Nasonia pair-rule gene regulatory network retains its function over 300 million years of evolution`,
@@ -42,13 +42,13 @@ const enPublicationsPageData = {
       date: "2022",
       link: "https://journals.biologists.com/dev/article/149/5/dev199632/274657/The-Nasonia-pair-rule-gene-regulatory-network",
       download: "https://journals.biologists.com/dev/article-pdf/149/5/dev199632/2135760/dev199632.pdf", 
-      writers: [me, "Peter K. Dearden"],
+      writers: ["Shannon E. Taylor", "Peter K. Dearden"],
     },
     {
       title: `The torso-like gene functions to maintain the structure of the vitelline membrane in Nasonia vitripennis, implying its co-option into Drosophila axis formation`, 
       abstract: ``, 
       date: `2019`, 
-      writers: [me, "Jack Tuffery", "Daniel Bakopoulos", "Sharon Lequeux", "Coral G. Warr", "Travis K. Johnson", "Peter K. Dearden"]
+      writers: ["Shannon E. Taylor", "Jack Tuffery", "Daniel Bakopoulos", "Sharon Lequeux", "Coral G. Warr", "Travis K. Johnson", "Peter K. Dearden"]
     },
   ],
 
