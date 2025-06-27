@@ -1,6 +1,6 @@
 // ---------- Navbar titles
 const enNavbarData = {
-  title: " Your name ",
+  title: " Shannon ",
   Home: "Home",
   publications: "Publications",
   Research: "Research",
