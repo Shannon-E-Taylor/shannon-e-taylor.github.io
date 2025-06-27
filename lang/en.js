@@ -2,7 +2,7 @@
 const enNavbarData = {
   title: " Shannon Taylor ",
   Home: "Home",
-  publications: "publications",
+  publications: "Publications",
   Research: "Research",
   Jobs: "Jobs",
   Contact: "Contact",
@@ -20,9 +20,11 @@ const enHomePageData = {
   `,
 };
 
+const me="Shannon E. Taylor"
+
 // ---------- Publications page data
 const enPublicationsPageData = {
-  type_one_title: "Journal Papers",
+  type_one_title: "Selected Journal Articles",
 
   type_one_items: [
     {
@@ -31,63 +33,55 @@ const enPublicationsPageData = {
       date: "2024",
       link: "https://www.cell.com/iscience/fulltext/S2589-0042(24)02065-0",
       github: "",
-      download: "",
-      writers: ["Claudio Cioffi-Revilla", "masoud Claudio "],
+      download: "https://www.cell.com/action/showPdf?pii=S2589-0042%2824%2902065-0",
+      writers: ["Kay Speiss", me],
     },
     {
       title: `The Nasonia pair-rule gene regulatory network retains its function over 300 million years of evolution`,
       abstract: `Insect segmentation is a well-studied and tractable system with which to investigate the genetic regulation of development. Though insects segment their germband using a variety of methods, modelling work implies that a single gene regulatory network can underpin the two main types of insect segmentation. This means limited genetic changes are required to explain significant differences in segmentation mode between different insects. This idea needs to be tested in a wider variety of species, and the nature of the gene regulatory network (GRN) underlying this model has not been tested. Some insects, e.g. Nasonia vitripennis and Apis mellifera segment progressively, a pattern not examined in previous studies of this segmentation model, producing stripes at different times progressively through the embryo, but not from a segment addition zone. Here, we aim to understand the GRNs patterning Nasonia using a simulation-based approach. We found that an existing model of Drosophila segmentation ( Clark, 2017) can be used to recapitulate the progressive segmentation of Nasonia, if provided with altered inputs in the form of expression of the timer genes Nv-caudal and Nv-odd paired. We predict limited topological changes to the pair-rule network and show, by RNAi knockdown, that Nv-odd paired is required for morphological segmentation. Together this implies that very limited changes to the Drosophila network are required to simulate Nasonia segmentation, despite significant differences in segmentation modes, implying that Nasonia use a very similar version of an ancestral GRN used by Drosophila, which must therefore have been conserved for at least 300 million years.`,
       date: "2022",
       link: "https://journals.biologists.com/dev/article/149/5/dev199632/274657/The-Nasonia-pair-rule-gene-regulatory-network",
-      github: "http://github.com",
-      writers: ["Shannon E. Taylor", "Peter K. Dearden"],
+      download: "https://journals.biologists.com/dev/article-pdf/149/5/dev199632/2135760/dev199632.pdf", 
+      writers: [me, "Peter K. Dearden"],
+    },
+    {
+      title: `The torso-like gene functions to maintain the structure of the vitelline membrane in Nasonia vitripennis, implying its co-option into Drosophila axis formation`, 
+      abstract: ``, 
+      date: `2019`, 
+      writers: [me, "Jack Tuffery", "Daniel Bakopoulos", "Sharon Lequeux", "Coral G. Warr", "Travis K. Johnson", "Peter K. Dearden"]
     },
   ],
 
-  type_two_title: "Under Review",
+
+  type_two_title: "Other Journal Articles",
   type_two_items: [
     {
-      title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
+      title: `Development review`,
       abstract: ``,
-      date: "1996",
+      date: "forthcoming",
       link: "",
       github: "",
       writers: [],
     },
-    {
-      title: `“Now you are speaking my language” Language-specific transparency and legislative negotiations in the Council of Ministers of the European Union. (with ).`,
-      abstract: `we adopt an elite-focused approach to explore the ways in which left and right-leaning American political elites differ in their visual and emotional framing of climate change. Overall, this study provides new insight into how politicians across party lines communicate about critical and polarizing political issues, such as climate change, by adapting to novel online communication channels.`,
-      date: "1996",
-      link: "http://link.com",
-      github: "http://github.com",
-      writers: ["Claudio Cioffi-Revilla", "masoud Claudio "],
-    },
+
   ],
 
-  type_three_title: "Book Chapters",
+  type_three_title: "Under review", 
   type_three_items: [
-    {
-      title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
+      {
+      title: `Development review`,
       abstract: ``,
-      date: "",
+      date: "forthcoming",
       link: "",
       github: "",
       writers: [],
     },
-    {
-      title: `“Now you are speaking my language” Language-specific transparency and legislative negotiations in the Council of Ministers of the European Union. (with ).`,
-      abstract: `we adopt an elite-focused approach to explore the ways in which left and right-leaning American political elites differ in their visual and emotional framing of climate change. Overall, this study provides new insight into how politicians across party lines communicate about critical and polarizing political issues, such as climate change, by adapting to novel online communication channels.`,
-      date: "1996",
-      link: "http://link.com",
-      github: "http://github.com",
-      writers: ["Claudio Cioffi-Revilla"],
-    },
-  ],
+  ]
 
-  type_four_title: "",
+  type_four_title: "In preparation",
   type_four_items: [
     {
-      title: `Elena Reinaga. 2016. If I were born again I would still be a sex worker. P. Purdy and N. Umansky. OpenDemocracy.`,
+      title: `Cichlids 1`,
       abstract: ``,
       date: "",
       link: "",
@@ -95,7 +89,7 @@ const enPublicationsPageData = {
       writers: [],
     },
     {
-      title: `“Now you are speaking my language” Language-specific transparency and legislative negotiations in the Council of Ministers of the European Union. (with ).`,
+      title: `Cichlids 2`,
       abstract: `we adopt an elite-focused approach to explore the ways in which left and right-leaning American political elites differ in their visual and emotional framing of climate change. Overall, this study provides new insight into how politicians across party lines communicate about critical and polarizing political issues, such as climate change, by adapting to novel online communication channels.`,
       date: "1996",
       link: "http://link.com",
