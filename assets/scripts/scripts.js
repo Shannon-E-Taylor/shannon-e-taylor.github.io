@@ -210,13 +210,11 @@ $(document).ready(function () {
   <h2>${job.company}</h2>
 </div>
               <div>
-                <span>${job.startData} - ${
-            job.endDate ? job.endDate : lang === "en" ? "Now" : " تاکنون "
-          }</span>
                 <span class='job_location'>${job.location}</span>
               </div>
             </div>
             <p>${job.abstract}</p>
+            <p>
             ${
               job.achievements.length > 0
                 ? `<div class="job_achievements">
@@ -228,6 +226,7 @@ $(document).ready(function () {
                 </div>`
                 : ""
             }
+            </p>
         </div>`
       )
       .join("");
