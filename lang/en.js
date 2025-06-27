@@ -20,7 +20,7 @@ const enHomePageData = {
   `,
 };
 
-const me="Shannon E. Taylor"
+const me="Shannon E. Taylor"; 
 
 // ---------- Publications page data
 const enPublicationsPageData = {
