@@ -192,23 +192,18 @@ $(document).ready(function () {
 
   // Jobs page data
   function jobsData() {
-    document.getElementById("page_title").innerText =
-      lang === "en" ? "Jobs" : " سوابق شغلی ";
+    document.getElementById("page_title").innerText =  "Education";
 
-    document.getElementById("jobs_title").innerHTML =
-      lang === "en" ? enJobsPageData.title : faJobsPageData.title;
-
-    document.getElementById("jobs_data").innerHTML = (
-      lang === "en" ? enJobsPageData.items : faJobsPageData.items
-    )
+    document.getElementById("jobs_title").innerHTML = enJobsPageData.title;
+    document.getElementById("jobs_data").innerHTML = enJobsPageData.items; 
       .map(
         (job) =>
           `<div class='job_item'>
-<div class='job_header'>
-  <h1>${job.title}</h1>
-  <span>${job.startData} - ${job.endDate ? job.endDate : lang === "en" ? "Now" : " تاکنون "}</span>
-  <h2>${job.company}</h2>
-</div>
+            <div class='job_header'>
+              <h1>${job.title}</h1>
+              <span>${job.startData} - ${job.endDate ? job.endDate : "Now"}</span>
+              <h2>${job.company}</h2>
+            </div>
               <div>
                 <span class='job_location'>${job.location}</span>
               </div>
