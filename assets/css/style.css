@@ -276,6 +276,8 @@
 
 /* Jobs page styles */
 /* Jobs page styles */
+/* border-radius: 8px; */
+/* box-shadow: 0 2px 5px rgba(0,0,0,0.05); */
 #jobs_data {
   display: flex;
   flex-direction: column;
@@ -287,8 +289,7 @@
 #jobs_data .job_item {
   background: #fff;
   padding: 1.5rem 2rem 1.5rem 2.5rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+
   position: relative;
   margin-bottom: 2rem;
 }
