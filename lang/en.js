@@ -2,7 +2,7 @@
 const enNavbarData = {
   title: " Shannon Taylor ",
   Home: "Home",
-  publications: "Publications",
+  publications: "publications",
   Research: "Research",
   Jobs: "Jobs",
   Contact: "Contact",
