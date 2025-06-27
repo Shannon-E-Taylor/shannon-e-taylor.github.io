@@ -130,9 +130,8 @@ const enJobsPageData = {
       location: "Dunedin, Aotearoa New Zealand",
       abstract:
         "",
-      achievements: ["Grade: High Distinction", 
-      "Thesis title: Using hybridization chain reaction to investigate the homology of gene regulatory networks", 
-      "First-author publication resulting: Taylor and Dearden (2021), "The <i>Nasonia</i> pair-rule gene regulatory network retains its function over 300 million years of evolution, <i>Development</i>"]",
+      achievements: ["Grade: High Distinction", "Thesis title: Using hybridization chain reaction to investigate the homology of gene regulatory networks", 
+      "First-author publication resulting: Taylor and Dearden (2021), 'The <i>Nasonia</i> pair-rule gene regulatory network retains its function over 300 million years of evolution, <i>Development</i>'']",
     },
         {
       title: `Bachelor of Biomedical Science (Honours)`,
