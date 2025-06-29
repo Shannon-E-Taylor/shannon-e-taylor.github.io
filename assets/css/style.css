@@ -644,8 +644,9 @@
 
 .image-text-container {
   display: flex;
-  align-items: flex-start; /* or center if you want vertical centering */
-  gap: 1rem; /* space between image and text */
+  align-items: flex-start;  /* align top edges */
+  justify-content: space-between;
+  gap: 1rem; /* space between text and image */
 }
 
 .image-text-container img {
