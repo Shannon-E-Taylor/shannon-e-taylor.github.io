@@ -641,3 +641,19 @@
 .rtl_wrapper #contact_data a {
   direction: ltr;
 }
+
+.image-text-container {
+  display: flex;
+  align-items: flex-start; /* or center if you want vertical centering */
+  gap: 1rem; /* space between image and text */
+}
+
+.image-text-container img {
+  width: 450px; /* or whatever size you want */
+  height: auto;
+  border-radius: 8px; /* optional for rounded corners */
+}
+
+.image-text-container p {
+  flex: 1;
+}
