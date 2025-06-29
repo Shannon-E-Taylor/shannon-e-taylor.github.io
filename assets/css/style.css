@@ -657,3 +657,16 @@
 .image-text-container p {
   flex: 1;
 }
+
+/* Responsive: stack on mobile */
+@media (max-width: 768px) {
+  .image-text-container {
+    flex-direction: column; /* stack vertically */
+  }
+
+  .image-text-container img {
+    width: 100%; /* full width image on small screens */
+    max-width: 100%;
+    height: auto;
+  }
+}
