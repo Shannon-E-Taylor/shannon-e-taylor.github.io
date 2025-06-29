@@ -41,7 +41,8 @@ const enPublicationsPageData = {
       title: `The <i>Nasonia</i> pair-rule gene regulatory network retains its function over 300 million years of evolution`,
       abstract: `<div class="image-text-container"> 
       <p>Insect segmentation is a well-studied and tractable system with which to investigate the genetic regulation of development. Though insects segment their germband using a variety of methods, modelling work implies that a single gene regulatory network can underpin the two main types of insect segmentation. This means limited genetic changes are required to explain significant differences in segmentation mode between different insects. This idea needs to be tested in a wider variety of species, and the nature of the gene regulatory network (GRN) underlying this model has not been tested. Some insects, e.g. <i>Nasonia vitripennis</i> and <i>Apis mellifera</i> segment progressively, a pattern not examined in previous studies of this segmentation model, producing stripes at different times progressively through the embryo, but not from a segment addition zone. Here, we aim to understand the GRNs patterning <i>Nasonia</i> using a simulation-based approach. We found that an existing model of <i>Drosophila</i> segmentation (Clark, 2017) can be used to recapitulate the progressive segmentation of <i>Nasonia</i>, if provided with altered inputs in the form of expression of the timer genes <i>Nv-caudal</i> and <i>Nv-odd</i> paired. We predict limited topological changes to the pair-rule network and show, by RNAi knockdown, that Nv-odd paired is required for morphological segmentation. Together this implies that very limited changes to the <i>Drosophila</i> network are required to simulate <i>Nasonia</i> segmentation, despite significant differences in segmentation modes, implying that <i>Nasonia</i> use a very similar version of an ancestral GRN used by <i>Drosophila</i>, which must therefore have been conserved for at least 300 million years.</p>
-      <img src="files/images/TaylorDearden2022.png", alt="Timer genes graphical abstract", style="width: 600px;">`,
+      <img src="files/images/TaylorDearden2022.png", alt="Timer genes graphical abstract", style="width: 600px;">
+      </div>`,
       date: "2022",
       link: "https://journals.biologists.com/dev/article/149/5/dev199632/274657/The-Nasonia-pair-rule-gene-regulatory-network",
       download: "https://journals.biologists.com/dev/article-pdf/149/5/dev199632/2135760/dev199632.pdf", 
@@ -62,7 +63,7 @@ const enPublicationsPageData = {
       abstract: `Modified, agricultural landscapes are susceptible to damage by insect pests. Biological control of pests is typically successful once a control agent has established, but this depends on the agent’s capacity to co-evolve with the host. Theoretical studies have shown that different levels of genetic variation between the host and the control agent will lead to rapid evolution of resistance in the host. Although this has been reported in one instance, the underlying genetics have not been studied. To address this, we measured the genetic variation in New Zealand populations of the pasture pest, Argentine stem weevil (Listronotus bonariensis), which is controlled with declining effectiveness by a parasitoid wasp, Microctonus hyperodae. We constructed a draft reference genome of the weevil, collected samples from a geographical survey of 10 sites around New Zealand, and genotyped them using a modified genotyping-by-sequencing approach. New Zealand populations of Argentine stem weevil have high levels of heterozygosity and low population structure, consistent with a large effective population size and frequent gene flow. This implies that Argentine stem weevils were able to evolve more rapidly than their biocontrol agent, which reproduces asexually. These findings show that monitoring genetic diversity in biocontrol agents and their targets is critical for long-term success of biological control.`,
       date: "2020",
       link: "https://www.mdpi.com/2075-4450/11/7/441",
-      writers: ["Thomas W. R. Harrop 1", "Marissa F. Le Lec", "Ruy Jauregui", "<b>Shannon E. Taylor</b>", "Sarah N. Inwood", "Tracey van Stijn", "Hannah Henry", "John Skelly", "Siva Ganesh", "Rachael L. Ashby", "Jeanne M. E. Jacobs", "Stephen L. Goldson", "Peter K. Dearden"],
+      writers: ["Thomas W. R. Harrop", "Marissa F. Le Lec", "Ruy Jauregui", "<b>Shannon E. Taylor</b>", "Sarah N. Inwood", "Tracey van Stijn", "Hannah Henry", "John Skelly", "Siva Ganesh", "Rachael L. Ashby", "Jeanne M. E. Jacobs", "Stephen L. Goldson", "Peter K. Dearden"],
     },
     {
       title: `When ‘#xmasangels’ Tweet: a Reception Study of Craftivism as Christian Witness `,
@@ -76,7 +77,7 @@ const enPublicationsPageData = {
       abstract: `Honeybees are an important component of modern agricultural systems, and a fascinating and scientifically engrossing insect. Honeybees are not commonly used as model systems for understanding development in insects despite their importance in agriculture. Honeybee embryogenesis, while being superficially similar to Drosophila, is molecularly very different, especially in axis formation and sex determination. In later development, much of honeybee biology is modified by caste development, an as yet poorly understood, but excellent, system to study developmental plasticity. In adult stages, developmental plasticity of the ovaries, related to reproductive constraint exhibits another aspect of plasticity. Here they review the tools, current knowledge and opportunities in honeybee developmental biology, and provide an updated embryonic staging scheme to support future studies.`,
       date: "2017",
       link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/dvg.23019",
-      writers: ["AG Cridge", "MR Lovegrove", "JG Skelly", "<b>SE Taylor</b>", "GEL Petersen", "RC Cameron", "PK Dearden"],
+      writers: ["Andrew G. Cridge", "Mackenzie R. Lovegrove", "John G. Skelly", "<b>Shannon E. Taylor</b>", "Gertje E. L. Petersen", "Rosannah C. Cameron", "Peter K. Dearden"],
     },
 
   ],
@@ -131,7 +132,7 @@ const enJobsPageData = {
       abstract:
         "",
       achievements: ["Grade: High Distinction", "Thesis title: Using hybridization chain reaction to investigate the homology of gene regulatory networks", 
-      "First-author publication resulting: Taylor and Dearden (2021), 'The <i>Nasonia</i> pair-rule gene regulatory network retains its function over 300 million years of evolution, <i>Development</i>'"],
+      "First-author publication resulting: Taylor and Dearden (2021), 'The <i>Nasonia</i> pair-rule gene regulatory network retains its function over 300 million years of evolution', <i>Development</i>"],
     },
         {
       title: `Bachelor of Biomedical Science (Honours)`,
