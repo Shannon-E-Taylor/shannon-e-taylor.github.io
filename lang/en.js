@@ -104,7 +104,13 @@ const enResearchPageData = {
   title: "Research",
   content: `
     <div class='research_content'>
-        <p> My research goal ... </p>
+        <p> 
+        My main research interest is how developmental diversity evolves. I have studied this using an evo-devo approach, comparing the development of more or less closely related model organisms, aiming to identify changes in systems or processes which have led to phenotypic evolution. 
+
+        In my postdoc, I hope to continue on this topic, leveraging my skills in staining and fluorescent imaging, image analysis, non-model species wrangling, and/or mathematical modelling. 
+
+         
+        </p>
     </div>
   `,
 };
