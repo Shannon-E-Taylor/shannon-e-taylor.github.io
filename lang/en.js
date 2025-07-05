@@ -108,9 +108,14 @@ const enResearchPageData = {
         My main research interest is how developmental diversity evolves. I have studied this using an evo-devo approach, comparing the development of more or less closely related model organisms, aiming to identify changes in systems or processes which have led to phenotypic evolution. 
 
         In my postdoc, I hope to continue on this topic, leveraging my skills in staining and fluorescent imaging, image analysis, non-model species wrangling, and/or mathematical modelling. 
+</p> <p>
+        During my PhD, I studied the development of Lake Malawi Cichlid fishes. Despite diverging just 300,000 years ago, and exhibiting only 0.1-0.2% nucleotide divergence between species, Lake Malawi cichlids exhibit dramatic variation in phenotype between speices, differing in in colour, size, shape, and somite/vertebrae number. This makes them an excellent system to study the causes of phenotypic diversity. In my PhD, I explained the developmental basis of this variation in vertebral and somite counts, showing that two species differing in somite count differ in PSM morphology, gene expression patterning, and size only at the onset. This implies that the difference in somite count is established at the onset of somite production, meaning no change to the somitogenesis process is requried to evolve differing somite counts in these species. 
+</p> <p>
+        Also during my PhD, I developed and validated a methodology to reverse-engineer gene regulatory networks onto cell tracks. This work is published in  
+<a href="https://www.cell.com/iscience/fulltext/S2589-0042(24)02065-0">iSscience</a>. This work advances the state-of-the-art in GRN inference: previously, GRNs had only been reverse-engineered in systems where the timescales of cell movement and gene expression patterning can be separated, which are rare developmentally. This new methodology allows one to reverse-engineer GRNs onto moving cell tracks, using pattern formation in the zebrafish PSM as a case-study. This represents a step towards more detailed models of how morphogenesis and GRNs interact to control development. 
+</p>
 
-         
-        </p>
+
     </div>
   `,
 };
