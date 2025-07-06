@@ -15,7 +15,7 @@ const enHomePageData = {
   home_title: "About me",
   home_content: `
   <div>
-  <p> I am an evolutionary developmental biologist interested in how developmental processes evolve to generate phenotypic diversity. In my postdock, I hope to continue combining comparative embryology, gene regulatory network modeling, and quantitative imaging to uncover how subtle changes in development can drive significant phenotypic diversification.  </p> 
+  <p> I am an evolutionary developmental biologist interested in how developmental processes evolve to generate phenotypic diversity. In my postdoc, I hope to continue combining comparative embryology, gene regulatory network modeling, and quantitative imaging to uncover how subtle changes in development can drive significant phenotypic diversification.  </p> 
   </div>
   `,
 };
@@ -39,10 +39,9 @@ const enPublicationsPageData = {
     },
     {
       title: `The <i>Nasonia</i> pair-rule gene regulatory network retains its function over 300 million years of evolution`,
-      abstract: `<div class="image-text-container"> 
+      abstract: `<img src="files/images/TaylorDearden2022.png", alt="Timer genes graphical abstract", style="width: 800px;">
       <p>Insect segmentation is a well-studied and tractable system with which to investigate the genetic regulation of development. Though insects segment their germband using a variety of methods, modelling work implies that a single gene regulatory network can underpin the two main types of insect segmentation. This means limited genetic changes are required to explain significant differences in segmentation mode between different insects. This idea needs to be tested in a wider variety of species, and the nature of the gene regulatory network (GRN) underlying this model has not been tested. Some insects, e.g. <i>Nasonia vitripennis</i> and <i>Apis mellifera</i> segment progressively, a pattern not examined in previous studies of this segmentation model, producing stripes at different times progressively through the embryo, but not from a segment addition zone. Here, we aim to understand the GRNs patterning <i>Nasonia</i> using a simulation-based approach. We found that an existing model of <i>Drosophila</i> segmentation (Clark, 2017) can be used to recapitulate the progressive segmentation of <i>Nasonia</i>, if provided with altered inputs in the form of expression of the timer genes <i>Nv-caudal</i> and <i>Nv-odd</i> paired. We predict limited topological changes to the pair-rule network and show, by RNAi knockdown, that Nv-odd paired is required for morphological segmentation. Together this implies that very limited changes to the <i>Drosophila</i> network are required to simulate <i>Nasonia</i> segmentation, despite significant differences in segmentation modes, implying that <i>Nasonia</i> use a very similar version of an ancestral GRN used by <i>Drosophila</i>, which must therefore have been conserved for at least 300 million years.</p>
-      <img src="files/images/TaylorDearden2022.png", alt="Timer genes graphical abstract", style="width: 600px;">
-      </div>`,
+      `,
       date: "2022",
       link: "https://journals.biologists.com/dev/article/149/5/dev199632/274657/The-Nasonia-pair-rule-gene-regulatory-network",
       download: "https://journals.biologists.com/dev/article-pdf/149/5/dev199632/2135760/dev199632.pdf", 
