@@ -1,6 +1,6 @@
 // ---------- Navbar titles
 const enNavbarData = {
-  title: " Shannon ",
+  title: " Shannon Taylor ",
   Home: "Home",
   publications: "Publications",
   Research: "Research",
@@ -15,7 +15,7 @@ const enHomePageData = {
   home_title: "About me",
   home_content: `
   <div>
-  <p> I am an evolutionary developmental biologist interested in how developmental processes evolve to generate phenotypic diversity. In my postdoc, I hope to continue combining comparative embryology, gene regulatory network modeling, and quantitative imaging to uncover how subtle changes in development can drive significant phenotypic diversification.  </p> 
+  <p> I am an evolutionary developmental biologist interested in how developmental processes evolve to generate phenotypic diversity. In my postdoc, I will leverage my unique skillset in comparative embryology, gene regulatory network modeling, and quantitative imaging to uncover how subtle changes in development can drive significant phenotypic diversification. </p> 
   </div>
   `,
 };
@@ -53,6 +53,9 @@ const enPublicationsPageData = {
       title: `The <i>torso-like</i> gene functions to maintain the structure of the vitelline membrane in <i>Nasonia vitripennis</i>, implying its co-option into <i>Drosophila</i> axis formation, <i>Biology Open</i>`, 
       abstract: `Axis specification is a fundamental developmental process. Despite this, the mechanisms by which it is controlled across insect taxa are strikingly different. An excellent example of this is terminal patterning, which in Diptera such as <i>Drosophila melanogaster</i> occurs via the localized activation of the receptor tyrosine kinase Torso. In Hymenoptera, however, the same process appears to be achieved via localized mRNA. How these mechanisms evolved and what they evolved from remains largely unexplored. Here, we show that <i>torso-like</i>, known for its role in <i>Drosophila</i> terminal patterning, is instead required for the integrity of the vitelline membrane in the hymenopteran wasp <i>Nasonia vitripennis</i>. We find that other genes known to be involved in <i>Drosophila</i> terminal patterning, such as <i>torso</i> and <i>Ptth</i>, also do not function in <i>Nasonia</i> embryonic development. These findings extended to orthologues of <i>Drosophila</i> vitelline membrane proteins known to play a role in localizing Torso-like in <i>Drosophila</i>; in <i>Nasonia</i> these are instead required for dorso–ventral patterning, gastrulation and potentially terminal patterning. Our data underscore the importance of the vitelline membrane in insect development, and implies phenotypes caused by knockdown of torso-like must be interpreted in light of its function in the vitelline membrane. In addition, our data imply that the signalling components of the <i>Drosophila</i> terminal patterning systems were co-opted from roles in regulating moulting, and co-option into terminal patterning involved the evolution of a novel interaction with the vitelline membrane protein Torso-like.`, 
       date: `2019`, 
+      link:`https://journals.biologists.com/bio/article/8/9/bio046284/222846/The-torso-like-gene-functions-to-maintain-the`, 
+      download:``, 
+      github:``, 
       writers: ["<b>Shannon E. Taylor</b>", "Jack Tuffery", "Daniel Bakopoulos", "Sharon Lequeux", "Coral G. Warr", "Travis K. Johnson", "Peter K. Dearden"]
     },
   ],
@@ -133,15 +136,15 @@ const enJobsPageData = {
   title: "Education",
   items: [
     {
-      title: `PhD`,
+      title: `PhD (under examination)`,
       company: "Department of Biology, University of Oxford",
       startData: "April 2021",
       endDate: "April 2025",
       location: "Oxford, UK",
       abstract:
         "",
-      achievements: ["Thesis title: Evolving developmental trajectories to generate phenotypic diversity in Lake Malawi Cichlids", "First-author publication resulting: Speiss, Taylor et al. (2024), 'proximated gene expression trajectories for gene regulatory network inference on cell tracks', <a href='https://www.cell.com/iscience/fulltext/S2589-0042(24)02065-0'><i>iScience</i></a>", 
-      "Clarendon Scholarship in Zoology: 3.5 years of full support (fees + stipend)", 
+      achievements: ["Thesis title: Evolving developmental trajectories to generate phenotypic diversity in Lake Malawi Cichlids", "First-author publication resulting: Speiss, Taylor et al. (2024), 'Approximated gene expression trajectories for gene regulatory network inference on cell tracks', <a href='https://www.cell.com/iscience/fulltext/S2589-0042(24)02065-0'><i>iScience</i></a>", 
+      "Clarendon Scholarship in Zoology: 3.5 years of full support (international fees + stipend)", 
       "William Georgetti Scholarship: 10,000NZD of conference and travel funding", 
       "Jenkinson fund: £2000 for project titled 'Quantifying genetic and morphological epigenetic landscapes in cichlid fish'"],
     },
