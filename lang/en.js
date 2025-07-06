@@ -107,14 +107,14 @@ const enResearchPageData = {
         <p> 
         I am an evolutionary developmental biologist interested in how developmental processes evolve to generate phenotypic diversity. My work combines comparative embryology, gene regulatory network modeling, and quantitative imaging to uncover how subtle changes in development can drive significant phenotypic diversification. 
 </p> <p>
-        During my PhD, I studied Lake Malawi Cichlid fishes, a species Despite diverging only 300,000 years ago, and exhibiting just 0.1-0.2% nucleotide divergence between species, Lake Malawi cichlids exhibit dramatic variation in phenotype between speices, differing in in colour, size, shape, and somite/vertebrae number. This makes them an excellent system to study the origins of phenotypic diversity. I showed that two species differing in somite count differ only at the onset of segmentation. This indicates that differences in somite count arise at the initiation of somite production, without requiring changes to the somitogenesis process itself.
+        During my PhD, I studied Lake Malawi Cichlid fishes, a species group with striking variation in colour, size, shape, and somite/vertebrae number, despite very low genetic divergence. I showed that differences in somite number arise at the onset of somitogenesis, without changes to the underlying somitogenesis process. This highlights how subtle shifts in early development can shape major phenotypic traits.
 </p> <p>
-        In parallel, I helped develop and validate a methodology to reverse-engineer gene regulatory networks (GRNs) onto cell tracks. This work is published in  
-<a href="https://www.cell.com/iscience/fulltext/S2589-0042(24)02065-0">iScience</a>. Previously, GRN inference was limited to systems where the timescales of cell movement and gene expression patterning can be separated, which are rare.  This new methodology overcomes this, allowing GRNs to be reconstructed in dynamic tissues. Using zebrafish tailbud patterning as a case study, this work advances the field towards more integrated models of how GRNs and morphogenesis interact to control development. 
+        In parallel, I helped develop and validate a methodology to reverse-engineer gene regulatory networks (GRNs) onto moving cell tracks (published in  
+<a href="https://www.cell.com/iscience/fulltext/S2589-0042(24)02065-0">iScience</a>). This allows GRNs to be reconstructed in tissues undergoing morphogenesis, using tailbud patterning as a case study. 
 </p> <p>
-Before my PhD, I spent five years as a research assistant in Peter Dearden's lab while I completed by undergraduate and MSc degree. My most impactful research here was my MSc, characterising <i>Nasonia vitripennis</i> development, a wasp which combines multiple methods of segmentation. I found that these different mechanisms can be explained by a <i>Drosphila</i> model of development, implying that the GRN controlling pair rule patterning is functionally conserved between these species. This work is published in <a href="https://journals.biologists.com/dev/article/149/5/dev199632/274657/The-Nasonia-pair-rule-gene-regulatory-network">Development</a>. I also showed that the terminal patterning gene <i>torso-like</i> is required for eggshell integrity in <i>Nasonia</i>, implying its co-option into <i>Drosphila</i> axis formation (<a href="https://journals.biologists.com/bio/article/8/9/bio046284/222846/The-torso-like-gene-functions-to-maintain-the">Biology Open</a>).  
+Before my PhD, I worked as a research assistant in Peter Dearden's lab while I completed by undergraduate and MSc degree. I showed that <i>Nasonia</i> segmentation is functionally homologous to that of <i>Drosophila</i>, despite 300 million years of evolution and significant differences in the dynamics of segmentation (published in <a href="https://journals.biologists.com/dev/article/149/5/dev199632/274657/The-Nasonia-pair-rule-gene-regulatory-network"><i>Development</i></a>). I also showed that the terminal patterning gene <i>torso-like</i> is required for eggshell integrity in <i>Nasonia</i>, implying its co-option into <i>Drosphila</i> axis formation (<a href="https://journals.biologists.com/bio/article/8/9/bio046284/222846/The-torso-like-gene-functions-to-maintain-the"><i>Biology Open</i></a>).  
  </p> 
- <p> I am excited to continue using diverse model and non-model systems to reveal how developmental processes evolve to generate the extraordinary diversity of life. </p>
+ <p> As a postdoc, I aim to apply my skills in imaging, non-model organism handling, and mathematical modeling to explore how developmental systems evolve to generate the extraordinary diversity of life. </p>
     </div>
   `,
 };
@@ -131,7 +131,7 @@ const enJobsPageData = {
       location: "Oxford, UK",
       abstract:
         "",
-      achievements: ["achievement 1", "achievement 2", "achievement 3"],
+      achievements: ["Thesis title: Evolving developmental trajectories to generate phenotypic diversity in Lake Malawi Cichlids", "First-author publication resulting: Speiss, Taylor et al. (2024), 'proximated gene expression trajectories for gene regulatory network inference on cell tracks', <i>iScience</i>"],
     },
     {
       title: `Masters of Science`,
@@ -142,7 +142,7 @@ const enJobsPageData = {
       abstract:
         "",
       achievements: ["Grade: High Distinction", "Thesis title: Using hybridization chain reaction to investigate the homology of gene regulatory networks", 
-      "First-author publication resulting: Taylor and Dearden (2021), 'The <i>Nasonia</i> pair-rule gene regulatory network retains its function over 300 million years of evolution', <i>Development</i>"],
+      "First-author publication resulting: Taylor and Dearden (2021), 'The <i>Nasonia</i> pair-rule gene regulatory network retains its function over 300 million years of evolution', <a href='https://journals.biologists.com/dev/article/149/5/dev199632/274657/The-Nasonia-pair-rule-gene-regulatory-network'><i>Development</i></a>"],
     },
         {
       title: `Bachelor of Biomedical Science (Honours)`,
