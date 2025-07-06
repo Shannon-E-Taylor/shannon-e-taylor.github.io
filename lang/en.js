@@ -15,7 +15,7 @@ const enHomePageData = {
   home_title: "About me",
   home_content: `
   <div>
-  <p> I am passionate about... </p> 
+  <p> I am an evolutionary developmental biologist interested in how developmental processes evolve to generate phenotypic diversity. In my postdock, I hope to continue combining comparative embryology, gene regulatory network modeling, and quantitative imaging to uncover how subtle changes in development can drive significant phenotypic diversification.  </p> 
   </div>
   `,
 };
@@ -110,7 +110,7 @@ const enResearchPageData = {
         During my PhD, I studied Lake Malawi Cichlid fishes, a species group with striking variation in colour, size, shape, and somite/vertebrae number, despite very low genetic divergence. I showed that differences in somite number arise at the onset of somitogenesis, without changes to the underlying somitogenesis process. This highlights how subtle shifts in early development can shape major phenotypic traits.
 </p> <p>
         In parallel, I helped develop and validate a methodology to reverse-engineer gene regulatory networks (GRNs) onto moving cell tracks (published in  
-<a href="https://www.cell.com/iscience/fulltext/S2589-0042(24)02065-0">iScience</a>). This allows GRNs to be reconstructed in tissues undergoing morphogenesis, using tailbud patterning as a case study. 
+<a href="https://www.cell.com/iscience/fulltext/S2589-0042(24)02065-0"><i>iScience</i></a>). This allows GRNs to be reconstructed in tissues undergoing morphogenesis, using tailbud patterning as a case study. 
 </p> <p>
 Before my PhD, I worked as a research assistant in Peter Dearden's lab while I completed by undergraduate and MSc degree. I showed that <i>Nasonia</i> segmentation is functionally homologous to that of <i>Drosophila</i>, despite 300 million years of evolution and significant differences in the dynamics of segmentation (published in <a href="https://journals.biologists.com/dev/article/149/5/dev199632/274657/The-Nasonia-pair-rule-gene-regulatory-network"><i>Development</i></a>). I also showed that the terminal patterning gene <i>torso-like</i> is required for eggshell integrity in <i>Nasonia</i>, implying its co-option into <i>Drosphila</i> axis formation (<a href="https://journals.biologists.com/bio/article/8/9/bio046284/222846/The-torso-like-gene-functions-to-maintain-the"><i>Biology Open</i></a>).  
  </p> 
@@ -131,7 +131,10 @@ const enJobsPageData = {
       location: "Oxford, UK",
       abstract:
         "",
-      achievements: ["Thesis title: Evolving developmental trajectories to generate phenotypic diversity in Lake Malawi Cichlids", "First-author publication resulting: Speiss, Taylor et al. (2024), 'proximated gene expression trajectories for gene regulatory network inference on cell tracks', <i>iScience</i>"],
+      achievements: ["Thesis title: Evolving developmental trajectories to generate phenotypic diversity in Lake Malawi Cichlids", "First-author publication resulting: Speiss, Taylor et al. (2024), 'proximated gene expression trajectories for gene regulatory network inference on cell tracks', <a href='https://www.cell.com/iscience/fulltext/S2589-0042(24)02065-0'><i>iScience</i></a>", 
+      "Clarendon Scholarship in Zoology: 3.5 years of full support (fees + stipend)", 
+      "William Georgetti Scholarship: 10,000NZD of conference and travel funding", 
+      "Jenkinson fund: £2000 for project titled 'Quantifying genetic and morphological epigenetic landscapes in cichlid fish'"],
     },
     {
       title: `Masters of Science`,
