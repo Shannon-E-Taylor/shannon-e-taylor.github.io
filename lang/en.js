@@ -16,6 +16,7 @@ const enHomePageData = {
   home_content: `
   <div>
   <p> I am an evolutionary developmental biologist interested in how developmental processes evolve to generate phenotypic diversity. In my postdoc, I will leverage my unique skillset in comparative embryology, gene regulatory network modeling, and quantitative imaging to uncover how subtle changes in development can drive significant phenotypic diversification. </p> 
+  <p> <a href="https://shannon-e-taylor.github.io/files/resume.pdf"><b>My CV</b></a> </p>
   </div>
   `,
 };
