@@ -60,7 +60,7 @@ const enPublicationsPageData = {
   type_two_title: "Other Journal Articles",
   type_two_items: [
     {
-      title: `Genetic Diversity in Invasive Populations of Argentine Stem Weevil Associated with Adaptation to Biocontrol`,
+      title: `Genetic Diversity in Invasive Populations of Argentine Stem Weevil Associated with Adaptation to Biocontrol, <i>Insects</i>`,
       abstract: `Modified, agricultural landscapes are susceptible to damage by insect pests. Biological control of pests is typically successful once a control agent has established, but this depends on the agent’s capacity to co-evolve with the host. Theoretical studies have shown that different levels of genetic variation between the host and the control agent will lead to rapid evolution of resistance in the host. Although this has been reported in one instance, the underlying genetics have not been studied. To address this, we measured the genetic variation in New Zealand populations of the pasture pest, Argentine stem weevil (Listronotus bonariensis), which is controlled with declining effectiveness by a parasitoid wasp, Microctonus hyperodae. We constructed a draft reference genome of the weevil, collected samples from a geographical survey of 10 sites around New Zealand, and genotyped them using a modified genotyping-by-sequencing approach. New Zealand populations of Argentine stem weevil have high levels of heterozygosity and low population structure, consistent with a large effective population size and frequent gene flow. This implies that Argentine stem weevils were able to evolve more rapidly than their biocontrol agent, which reproduces asexually. These findings show that monitoring genetic diversity in biocontrol agents and their targets is critical for long-term success of biological control.`,
       date: "2020",
       link: "https://www.mdpi.com/2075-4450/11/7/441",
@@ -69,7 +69,7 @@ const enPublicationsPageData = {
       writers: ["Thomas W. R. Harrop", "Marissa F. Le Lec", "Ruy Jauregui", "<b>Shannon E. Taylor</b>", "Sarah N. Inwood", "Tracey van Stijn", "Hannah Henry", "John Skelly", "Siva Ganesh", "Rachael L. Ashby", "Jeanne M. E. Jacobs", "Stephen L. Goldson", "Peter K. Dearden"],
     },
     {
-      title: `When ‘#xmasangels’ Tweet: a Reception Study of Craftivism as Christian Witness `,
+      title: `When ‘#xmasangels’ Tweet: a Reception Study of Craftivism as Christian Witness, <i>Ecclesial Practices</i>`,
       abstract: `Craftivism combines craft and activism. This paper contributes to the field of contemporary culture, mission, and creative making by examining the Christmas Angels project, in which local churches yarn-bomb hand-knitted angels, as an ecclesial expression of craftivism. Recipient responses to this fresh expression of Christian witness are analysed by examination of over 1,100 ‘#xmasangel’ tweets. Analysis reveals a found theology, in which angels are received with joy and surprise, understood in the context of love, experienced as a place-based gift and embody a participative making. A missiology of making is developed, reading the yarn-bombed Christmas angels as an ecclesial practice of witness in continuity with a theology of making in the Wisdom literature and ‘craft-egesis’ of mission in Acts. The research has relevance in exploring the potential of digital data in empirical ecclesial research and challenging missiology to be practical in ‘making’ a domestic turn.`,
       date: "2020",
       link: "https://brill.com/view/journals/ep/7/2/article-p143_143.xml",
@@ -78,7 +78,7 @@ const enPublicationsPageData = {
       writers: ["Steve Taylor", "<b>Shannon E. Taylor</b>"],
     },
         {
-      title: `The honeybee as a model insect for developmental genetics`,
+      title: `The honeybee as a model insect for developmental genetics, <i>Genesis</i>`,
       abstract: `Honeybees are an important component of modern agricultural systems, and a fascinating and scientifically engrossing insect. Honeybees are not commonly used as model systems for understanding development in insects despite their importance in agriculture. Honeybee embryogenesis, while being superficially similar to Drosophila, is molecularly very different, especially in axis formation and sex determination. In later development, much of honeybee biology is modified by caste development, an as yet poorly understood, but excellent, system to study developmental plasticity. In adult stages, developmental plasticity of the ovaries, related to reproductive constraint exhibits another aspect of plasticity. Here they review the tools, current knowledge and opportunities in honeybee developmental biology, and provide an updated embryonic staging scheme to support future studies.`,
       date: "2017",
       link: "https://onlinelibrary.wiley.com/doi/abs/10.1002/dvg.23019",
@@ -118,11 +118,10 @@ const enResearchPageData = {
         I am an evolutionary developmental biologist interested in how developmental processes evolve to generate phenotypic diversity. My work combines comparative embryology, gene regulatory network modeling, and quantitative imaging to uncover how subtle changes in development can drive significant phenotypic diversification. 
 </p> <p>
         During my PhD, I studied Lake Malawi Cichlid fishes, a species group with striking variation in colour, size, shape, and somite/vertebrae number, despite very low genetic divergence. I showed that differences in somite number arise at the onset of somitogenesis, without changes to the underlying somitogenesis process. This highlights how subtle shifts in early development can shape major phenotypic traits.
-</p> <p>
         In parallel, I helped develop and validate a methodology to reverse-engineer gene regulatory networks (GRNs) onto moving cell tracks (published in  
-<a href="https://www.cell.com/iscience/fulltext/S2589-0042(24)02065-0"><i>iScience</i></a>). This allows GRNs to be reconstructed in tissues undergoing morphogenesis, using tailbud patterning as a case study. 
+<a href="https://www.cell.com/iscience/fulltext/S2589-0042(24)02065-0"><i>iScience</i></a>). This allows GRNs to be reconstructed in tissues undergoing morphogenesis, using zebrafish tailbud patterning as a case study. 
 </p> <p>
-Before my PhD, I worked as a research assistant in Peter Dearden's lab while I completed by undergraduate and MSc degree. I showed that <i>Nasonia</i> segmentation is functionally homologous to that of <i>Drosophila</i>, despite 300 million years of evolution and significant differences in the dynamics of segmentation (published in <a href="https://journals.biologists.com/dev/article/149/5/dev199632/274657/The-Nasonia-pair-rule-gene-regulatory-network"><i>Development</i></a>). I also showed that the terminal patterning gene <i>torso-like</i> is required for eggshell integrity in <i>Nasonia</i>, implying its co-option into <i>Drosphila</i> axis formation (<a href="https://journals.biologists.com/bio/article/8/9/bio046284/222846/The-torso-like-gene-functions-to-maintain-the"><i>Biology Open</i></a>).  
+Before my PhD, I worked as a research assistant in Peter Dearden's lab while I completed my undergraduate and MSc degrees. I showed that <i>Nasonia</i> segmentation is functionally homologous to that of <i>Drosophila</i>, despite 300 million years of evolution and significant differences in the dynamics of segmentation (published in <a href="https://journals.biologists.com/dev/article/149/5/dev199632/274657/The-Nasonia-pair-rule-gene-regulatory-network"><i>Development</i></a>). I also showed that the terminal patterning gene <i>torso-like</i> is required for eggshell integrity in <i>Nasonia</i>, implying its co-option into <i>Drosphila</i> axis formation (<a href="https://journals.biologists.com/bio/article/8/9/bio046284/222846/The-torso-like-gene-functions-to-maintain-the"><i>Biology Open</i></a>).  
  </p> 
  <p> As a postdoc, I aim to apply my skills in imaging, non-model organism handling, and mathematical modeling to explore how developmental systems evolve to generate the extraordinary diversity of life. </p>
     </div>
